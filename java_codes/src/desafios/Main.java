@@ -7,5 +7,8 @@ public class Main {
 
         Eletronico eletronico = new Eletronico("Smartphone", 1500.00, "Samsung");
         eletronico.mostrarInformacoes();
+
+        Aluno aluno = new Aluno("João", 20, 12345);
+        aluno.mostrarInformacoes();
     }
 }
