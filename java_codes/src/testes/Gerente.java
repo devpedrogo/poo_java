@@ -1,3 +1,4 @@
+package java_codes.src.testes;
 public class Gerente extends Colaborador {
     private String departamento;
 

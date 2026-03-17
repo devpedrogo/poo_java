@@ -1,10 +1,11 @@
-import java.util.Scanner;
+package java_codes.src.testes;
+// import java.util.Scanner;
 public class App {
     public static int soma(int a, int b) {
         return a + b;
     }
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
         // System.out.println("Bem-vindo ao programa de soma!");
         
         // System.out.println("Digite seu nome: ");

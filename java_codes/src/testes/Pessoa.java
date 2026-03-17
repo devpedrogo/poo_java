@@ -1,3 +1,4 @@
+package java_codes.src.testes;
 public class Pessoa {
     String nome;
     int idade;

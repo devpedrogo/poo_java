@@ -1,3 +1,4 @@
+package java_codes.src.testes;
 public class Colaborador {
     private String nome;
     private double salario;
