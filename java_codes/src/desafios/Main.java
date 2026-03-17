@@ -10,5 +10,12 @@ public class Main {
 
         Aluno aluno = new Aluno("João", 20, 12345);
         aluno.mostrarInformacoes();
+
+        Livro livro = new Livro("O Alquimista", "Paulo Coelho");
+        livro.mostrarInformacoes();
+
+        LivroDigital livroDigital = new LivroDigital("O Alquimista", "Paulo Coelho", "PDF", 2.5);
+        livroDigital.mostrarInformacoes();
+
     }
 }
