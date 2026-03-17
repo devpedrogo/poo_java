@@ -17,5 +17,7 @@ public class Main {
         LivroDigital livroDigital = new LivroDigital("O Alquimista", "Paulo Coelho", "PDF", 2.5);
         livroDigital.mostrarInformacoes();
 
+        Bicicleta bicicleta = new Bicicleta("Caloi", 2020, "Mountain Bike");
+        bicicleta.mostrarInformacoes();
     }
 }
