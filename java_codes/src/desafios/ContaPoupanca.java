@@ -16,10 +16,17 @@ public class ContaPoupanca extends ContaBancaria{
 		this.taxaRendimento = taxaRendimento;
 	}
 
+    public void calcularRendimento(){
+        double rendimento = getSaldo() * (taxaRendimento / 100);
+        setSaldo(getSaldo() + rendimento);
+        System.out.println("Rendimento calculado: " + rendimento);
+    }
+
     @Override
 	public void mostrarInformacoes(){
         super.mostrarInformacoes();
 		System.out.println("Taxa de rendimento: " + taxaRendimento);
+        System.out.println("Saldo atualizado: " + getSaldo());
 	}
 }
 

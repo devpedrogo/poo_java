@@ -31,6 +31,7 @@ public class Main {
 	    contaPoupanca1.mostrarInformacoes();
 
         contaPoupanca1.setSaldo(5000.00);
+        contaPoupanca1.calcularRendimento();
         contaPoupanca1.mostrarInformacoes();
 
     }
