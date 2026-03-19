@@ -34,13 +34,21 @@ public class Main {
         // contaPoupanca1.calcularRendimento();
         // contaPoupanca1.mostrarInformacoes();
 
-        Util util = new Util();
-        int maiorInt = util.maiorValor(10, 20);
-        System.out.println("Maior valor (int): " + maiorInt);
-        double maiorDouble = util.maiorValor(15, 10.3);
-        System.out.println("Maior valor (double): " + maiorDouble);
-        String maiorString = util.maiorValor("Java", "Python");
-        System.out.println("Maior valor (String): " + maiorString);
+        // Util util = new Util();
+        // int maiorInt = util.maiorValor(10, 20);
+        // System.out.println("Maior valor (int): " + maiorInt);
+        // double maiorDouble = util.maiorValor(15, 10.3);
+        // System.out.println("Maior valor (double): " + maiorDouble);
+        // String maiorString = util.maiorValor("Java", "Python");
+        // System.out.println("Maior valor (String): " + maiorString);
+
+        StringUtils stringUtils = new StringUtils();
+        String resultado1 = stringUtils.concat("Olá, ", "mundo!");
+        System.out.println(resultado1);
+        String resultado2 = stringUtils.concat("Número: ", 42);
+        System.out.println(resultado2);
+        String resultado3 = stringUtils.concat(2024, " é o ano atual. ", "Vamos aprender Java!");
+        System.out.println(resultado3);
 
     }
 }
