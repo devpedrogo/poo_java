@@ -27,12 +27,20 @@ public class Main {
 	    // contaBancaria1.mostrarInformacoes();
 
         
-        ContaPoupanca contaPoupanca1 = new ContaPoupanca(78890, 307.00, 5.0);
-	    contaPoupanca1.mostrarInformacoes();
+        // ContaPoupanca contaPoupanca1 = new ContaPoupanca(78890, 307.00, 5.0);
+	    // contaPoupanca1.mostrarInformacoes();
 
-        contaPoupanca1.setSaldo(5000.00);
-        contaPoupanca1.calcularRendimento();
-        contaPoupanca1.mostrarInformacoes();
+        // contaPoupanca1.setSaldo(5000.00);
+        // contaPoupanca1.calcularRendimento();
+        // contaPoupanca1.mostrarInformacoes();
+
+        Util util = new Util();
+        int maiorInt = util.maiorValor(10, 20);
+        System.out.println("Maior valor (int): " + maiorInt);
+        double maiorDouble = util.maiorValor(15, 10.3);
+        System.out.println("Maior valor (double): " + maiorDouble);
+        String maiorString = util.maiorValor("Java", "Python");
+        System.out.println("Maior valor (String): " + maiorString);
 
     }
 }
