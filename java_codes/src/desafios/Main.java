@@ -50,11 +50,17 @@ public class Main {
         // String resultado3 = stringUtils.concat(2024, " é o ano atual. ", "Vamos aprender Java!");
         // System.out.println(resultado3);
 
-        CartaoCredito cartaoCredito = new CartaoCredito("1234-5678-9012-3456");
-        cartaoCredito.processarPagamento(150.00);
-        Boleto boleto = new Boleto("23793.38128 60000.000000 00000.000000 1 67890000015000");
-        boleto.processarPagamento(150.00);  
-        
+        // CartaoCredito cartaoCredito = new CartaoCredito("1234-5678-9012-3456");
+        // cartaoCredito.processarPagamento(150.00);
+        // Boleto boleto = new Boleto("23793.38128 60000.000000 00000.000000 1 67890000015000");
+        // boleto.processarPagamento(150.00);  
+
+        Email email = new Email();
+        email.enviarEmail("joao@example.com", "Assunto do Email", "Mensagem do Email");
+
+        SMS sms = new SMS();
+        sms.enviarSMS("11987654321", "Mensagem do SMS");
+
 
     }
 }
