@@ -42,13 +42,19 @@ public class Main {
         // String maiorString = util.maiorValor("Java", "Python");
         // System.out.println("Maior valor (String): " + maiorString);
 
-        StringUtils stringUtils = new StringUtils();
-        String resultado1 = stringUtils.concat("Olá, ", "mundo!");
-        System.out.println(resultado1);
-        String resultado2 = stringUtils.concat("Número: ", 42);
-        System.out.println(resultado2);
-        String resultado3 = stringUtils.concat(2024, " é o ano atual. ", "Vamos aprender Java!");
-        System.out.println(resultado3);
+        // StringUtils stringUtils = new StringUtils();
+        // String resultado1 = stringUtils.concat("Olá, ", "mundo!");
+        // System.out.println(resultado1);
+        // String resultado2 = stringUtils.concat("Número: ", 42);
+        // System.out.println(resultado2);
+        // String resultado3 = stringUtils.concat(2024, " é o ano atual. ", "Vamos aprender Java!");
+        // System.out.println(resultado3);
+
+        CartaoCredito cartaoCredito = new CartaoCredito("1234-5678-9012-3456");
+        cartaoCredito.processarPagamento(150.00);
+        Boleto boleto = new Boleto("23793.38128 60000.000000 00000.000000 1 67890000015000");
+        boleto.processarPagamento(150.00);  
+        
 
     }
 }
