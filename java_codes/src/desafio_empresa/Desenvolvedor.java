@@ -27,9 +27,9 @@ public class Desenvolvedor extends Funcionario{
 
     @Override
     public void calcularSalario(){
-        super.calcularSalario();
         double extra = valorHoraExtra * horaExtra;
         double salarioFinal = getSalario() + extra;
+        System.out.println("Nome: " + getNome());
         System.out.println("Salário Final: " + salarioFinal);
     }
 }
